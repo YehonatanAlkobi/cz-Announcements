@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+@keyframes near {
+    0%   {margin-left: -3000px; }
+    100% {margin-left:-0px; }
+}
+  
+#container {
+    display: none;
+    position: absolute;
+    top: 50%;
+
+    width: fit-content;
+    height: 5vh;
+    background-color: black;
+
+    animation: near 2s;
+
+    border-radius: 0.3vh;
+    border-left: 0.3vh solid rgb(0, 235, 59);
+    padding-right: 1.2vh;
+	padding: -0.4vh;
+}
+
+.text {
+    position: relative;
+    white-space: nowrap;
+    top: 50%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6vh;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 2px 7px rgba(255,255,255,0.70);
+}
