@@ -22,15 +22,16 @@
     border-radius: 0.3vh;
     border-left: 0.3vh solid rgb(0, 235, 59);
     padding-right: 1.2vh;
-	padding: -0.4vh;
+    padding: -0.4vh;
 }
 
 .text {
     position: relative;
-    white-space: nowrap;
     top: 50%;
     left: 51%;
     transform: translate(-50%, -50%);
+	
+    white-space: nowrap;
     font-size: 1.6vh;
     text-align: center;
     color: white;
