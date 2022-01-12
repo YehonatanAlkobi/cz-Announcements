@@ -1,4 +1,4 @@
-RegisterNetEvent("cz-announce:toggleDisplay", function(text, timer, display)
+RegisterNetEvent("cz-announce:toggleDisplay", function(text, timer)
     SendNUIMessage({
         action = "toggle",
         text = text,
